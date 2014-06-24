@@ -1,0 +1,10 @@
+extends ../layouts/default
+block content
+    .row.summeruni.text-justify
+        .medium-12.columns
+            h2.title !{locals.info.title}
+            img(src="#{locals.info.img}")
+            p !{locals.info.text}
+            hr
+            div(style="text-align: center;")
+                iframe(class="youtube-player", type="text/html", width="853", height="480", style="max-width:100%;", src="//www.youtube.com/embed/WN9xoEdiM9k?wmode=opaque", frameborder="0", allowfullscreen)

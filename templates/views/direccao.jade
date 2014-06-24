@@ -1,0 +1,13 @@
+extends ../layouts/default
+block content
+    .row: .medium-12.columns.direccao
+        h2.title !{locals.info.title}
+    .row: .medium-10.medium-offset-1.columns.direccao
+        p.direccao_intro !{locals.info.text}
+        .row: .medium-12.columns
+            each member in locals.info.members
+                .medium-4.columns.members
+                    img(src="#{member.foto}" alt="Aegee Madeira #{member.name}")
+                    h4 !{member.name}
+                    hr
+                    p !{member.cargo}

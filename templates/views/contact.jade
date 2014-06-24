@@ -1,0 +1,34 @@
+extends ../layouts/default
+block content
+    .row: .medium-12.columns.contact
+        h2.title Contacta-nos
+        .row
+            .medium-4.columns
+                p We are looking forward to cooperation with any individual, business or organization that share our aim. Please use the form contact us
+                p or find us on facebook
+            .medium-8.columns.contact
+                if enquirySubmitted
+                    h3.text-center Obrigado por enviar-nos mensagem.
+                else
+                    form(method='post')
+                        input(type='hidden', name='action', value='contact')
+                        .form-group(class=validationErrors.name ? 'has-error' : null)
+                            label Nome
+                            input(type='text', name='name.full', value=formData['name.full'], required).form-control
+                        .form-group(class=validationErrors.email ? 'has-error' : null)
+                            label Email
+                            input(type='email', name='email', value=formData.email, required).form-control
+                        .form-group
+                            label Telefone
+                            input(type='text', name='phone', value=formData.phone, placeholder='(opcional)').form-control
+                        .form-group(class=validationErrors.enquiryType ? 'has-error' : null)
+                            label Qual é a razão que estás a nos contactar?
+                            select(name='enquiryType').form-control
+                                option(value='') (selecionar um)
+                                each type in enquiryTypes
+                                    option(value=type.value, selected=formData.enquiryType == type.value)= type.label
+                        .form-group(class=validationErrors.message ? 'has-error' : null)
+                            label Mensagem
+                            textarea(name='message', placeholder='Deixa aqui a tua mensagem...' rows=4).form-control= formData.message
+                        .form-actions
+                            button(type='submit').button Enviar

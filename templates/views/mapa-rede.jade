@@ -1,0 +1,28 @@
+extends ../layouts/default
+block content
+    .mapa-rede
+        .row
+            h2.title Mapa da rede AEGEE
+            iframe(width="100%", height="400", style="border: none; overflow: hidden; padding: 0; margin: 0;", src="http://devel.oms.aegee.org/oms/export/html/aegee.org.map.html")
+
+        .row
+            hr
+            h2.becoming-member Torna-te um membro
+            .medium-6.columns
+                p !{locals.info.intro}
+                p !{locals.info.become}
+
+            .medium-6.columns
+                h4 !{locals.info.sub_title}
+                ul
+                    each li in locals.info.li_elem
+                        div
+                        li= li
+            hr
+        .row
+            .medium-4.columns.text-center
+                img(src="#{locals.info.mapa_img}" alt="#{locals.info.join}")
+            .medium-8.columns.text-center
+                h2 !{locals.info.join}
+                p !{locals.info.join_text}
+                a(href="/contact").button Contacta-nos

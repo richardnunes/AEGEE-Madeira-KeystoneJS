@@ -1,0 +1,19 @@
+extends ../layouts/default
+block content
+    .row.projectos
+        h2.title Projetos da AEGEE
+        p !{locals.info.text1}
+        p !{locals.info.text2}
+        hr
+        h3.sub-title(style="margin-bottom:20px") !{locals.info.title}
+        .row
+        each proj in locals.info.projects
+
+            .medium-6.columns.elements
+                .element()
+                    a(href="#{proj.link}", target="_blank")
+                        img(src="#{proj.img}" alt="#{proj.name}")
+                    hr
+                    a(href="#{proj.link}", target="_blank")
+                        strong= proj.name
+            

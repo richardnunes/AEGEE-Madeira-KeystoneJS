@@ -1,0 +1,12 @@
+extends ../layouts/default
+block content
+    .row.grupos
+        h2.title !{locals.info.title}
+        p !{locals.info.text}
+        .row
+            each group in locals.info.groups
+                .medium-4.columns.groups
+                    a(href="#{group.link}", target="_blank")
+                        img(src="#{group.img}" alt="group.name")
+                    //hr
+                    //p= group.name

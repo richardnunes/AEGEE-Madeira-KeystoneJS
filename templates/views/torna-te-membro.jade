@@ -1,0 +1,15 @@
+extends ../layouts/default
+block content
+    .row.tornar-membro.text-justify
+        .medium-12.columns
+            h2.title !{locals.info.title}
+            .medium-10.medium-offset-1.columns
+                p !{locals.info.first_para}
+                ul
+                    each advantage in locals.info.advantages
+                        li!= advantage
+                p !{locals.info.heading_second_para}
+                .row: .medium-10.medium-offset-1.columns
+                    each step in locals.info.steps
+                        p!= step
+                p !{locals.info.last_para}

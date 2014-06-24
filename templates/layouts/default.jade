@@ -1,0 +1,143 @@
+include ../mixins/flash-messages
+
+doctype html
+html
+
+    //- HTML HEADER
+    head
+        meta(charset="utf-8")
+        meta(name="fragment" content="!")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+        title= title || 'AEGEE Madeira'
+        link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+
+        //- Customise the stylesheet for your site by editing /public/styles/site.less
+        //- All .less files will be automatically compiled and minified in production.
+
+        link(href="/styles/site.min.css", rel="stylesheet")
+        link(href="/styles/foundation/normalize.css", rel="stylesheet")
+        link(href="/styles/foundation/foundation.min.css", rel="stylesheet")
+
+        //- This file provides the default styling for the KeystoneJS Content Editor
+        if user && user.canAccessKeystone
+            link(href="/keystone/styles/content/editor.min.css", rel="stylesheet")
+
+        //- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+        //- Safely remove this block if you are not targeting IE8
+        //-[if lt IE 9]
+            script(src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")
+            script(src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")
+        //-[endif]
+
+        //- Include template-specific stylesheets by extending the css block
+        block css
+
+        //- Add any other template-specific HEAD tags by extending the head block
+        block head
+
+    //- HTML BODY
+    body
+        #fb-root
+        script.
+            (function(d, s, id) {
+               var js, fjs = d.getElementsByTagName(s)[0];
+               if (d.getElementById(id)) return;
+               js = d.createElement(s); js.id = id;
+               js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&appId=468180749978493&version=v2.0";
+               fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+
+        .large-3.columns.show-for-large-up.sidebar(style="z-index: 2;")
+            img(src="/images/logo-aegee-white.png" alt="Aegee Madeira Logo").sidebar-img
+            img(src="/images/line.png").line
+        .medium-12.large-9.large-offset-3.columns(style="padding:0;min-height: 100%;")
+            .off-canvas-wrap.show-for-medium-down(data-offcanvas)
+                .inner-wrap
+                    nav.tab-bar
+                        section.left-small
+                            a.left-off-canvas-toggle.menu-icon(href="#")
+                                span
+
+                        section.middle.tab-bar-section
+                            h1.title AEGEE Madeira
+
+                    aside.left-off-canvas-menu
+                        each link in navLinks
+                            if link.dropdown != true
+                                ul.off-canvas-list
+                                    li: a(href=link.href)= link.label
+                            else
+                                ul.off-canvas-list
+                                    li: label= link.label
+                                    each  child in link.childs
+                                        li: a(href=child.href)= child.label
+                    section.main-section
+                        #content
+                            block intro
+                            +flash-messages(messages)
+                            block content
+                    a.exit-off-canvas
+            #nav.hide-for-medium-down
+                div(style="height:58px;width: 100%;background: rgba(249, 249, 249, 0.6);position:fixed;top: -4px;-webkit-filter: blur(4px);-moz-filter: blur(4px);-o-filter: blur(4x);-ms-filter: blur(4px);filter:blur(4px);z-index: 1;")
+                nav.top-bar.sticky(data-topbar)
+                    //ul.title-area
+                        li.name
+                            h1: a(href="/")
+                        li.toggle-topbar.menu-icon: a(href="#") Menu
+                    section.top-bar-section
+                        ul.left
+                            each link in navLinks
+                                if link.dropdown != true
+                                    li(class=(section == link.key ? 'active' : null)): a(href=link.href)= link.label
+                                else
+                                    li.has-dropdown
+                                        a.dropdown-toggle(data-toggle='dropdown')= link.label
+                                        ul.dropdown
+                                            each  child in link.childs
+                                                li: a(href=child.href)= child.label
+                        //ul.right
+                            if user
+                                if user.canAccessKeystone
+                                    li: a(href='/keystone') Open Keystone
+                                li: a(href='/keystone/signout') Sign Out
+                            else
+                                li: a(href='/keystone/signin') Sign In
+
+            .large-12.columns.hide-for-medium-down(style="margin-top: 44px")
+                #content
+                    block intro
+                    +flash-messages(messages)
+                    block content
+            //- FOOTER
+            #footer
+                //- You don't _have_ to include a link saying your site is powered by KeystoneJS, but we appreciate it!
+                p Powered by <a href="http://keystonejs.com" target="_blank"><span class="keystone-link">KeystoneJS</span></a>.
+
+
+
+        //- JAVASCRIPT
+
+        //- jQuery 1.11.0 is included by default, and required by both Bootstrap
+        //- and the KeystoneJS Content Editor. If you are not targeting IE8,
+        //- you can upgrade to 2.1.0 (also bundled) for better performance.
+        script(src='/js/lib/jquery/jquery-1.11.0.min.js')
+
+        //- Customise which Bootstrap javascript files are served by including
+        //- them specifically here, instead of bootstrap-3.1.0.min.js
+        //script(src='/js/lib/bootstrap/bootstrap-3.1.0.min.js')
+        script(src='/js/lib/foundation/foundation.min.js')
+
+        script.
+            $(document).foundation()
+
+        //- The KeystoneJS Content Editor provides support for ks-editable data attributes,
+        //- which generate links to edit content for users who can access Keystone
+        if user && user.canAccessKeystone
+            script(src='/keystone/js/content/editor.js')
+
+        //- Add scripts that are globally required by your site here.
+
+        //- Include template-specific javascript files by extending the js block
+        block js
