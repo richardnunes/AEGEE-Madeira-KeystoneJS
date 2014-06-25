@@ -22,24 +22,24 @@ exports = module.exports = function(req, res) {
         mission_text: "A AEGEE permite aos alunos e jovens da Europa a ter um papel activo na sociedade. Ela cria um espaço de diálogo e oportunidades de aprendizagem, e também atua como representante destes perante os responsáveis pela tomada de decisões. Além disso, AEGEE fortalece o entendimento mútuo e traz a Europa mais próxima dos jovens.",
         mission_img: "images/sobre/Mission2.jpg",
 
-        exchange_title: "Intercultural Exchange",
-        exchange_text: "AEGEE creates a space for members of different backgrounds to meet and learn about cultural differences, in order to foster mutual understanding. AEGEE supports mobility and encourages young people to cross borders and make new friends, to break stereotypes and strengthen tolerance, respect and solidarity.",
+        exchange_title: "Câmbio Intercultural",
+        exchange_text: "A AEGEE cria um espaço para os membros de diferentes origens para encontrar e descobrir as diferenças culturais, a fim de promover a compreensão mútua. A AEGEE apoia a mobilidade e incentiva os jovens a atravessar as fronteiras e fazer novos amigos, para quebrar estereótipos e reforçar a tolerância, respeito e solidariedade.",
         exchange_img: "images/sobre/Intercultural-Exchange.jpg",
 
-        education_title: "Personal Development and Non Formal Education",
-        education_text: "AEGEE provides learning opportunities for the development of its members through non-formal education and informal learning. By participating in trainings courses, workshops, and active involvement in the organisation, our members improve their competences (such as leadership skills, communication skills and team management) which will be useful for their future lives.",
+        education_title: "Desenvolvimento Pessoal e Educação Não Formal",
+        education_text: "A AEGEE oferece oportunidades de aprendizagem para o desenvolvimento dos seus membros por meio da educação não formal e de aprendizagem informal. Através da participação em cursos de treino, workshops e participação ativa na organização, os nossos membros vêm a melhorar suas competências (como a capacidade de liderança, habilidades de comunicação e gestão de equipa), que será útil nos seus futuros.",
         education_img: "images/sobre/Personal-Development.jpg",
 
-        projects_title: "Thematic Projects",
-        projects_text: "Thematic projects, either local or international, are initiatives developed by members of AEGEE. They deal with current challenges in the European society, create awareness among young people and propose solutions from a student point of view. The outcome of this work has an impact in- and outside of AEGEE.",
+        projects_title: "Projetos Temáticos",
+        projects_text: "Projectos temáticos, locais ou internacionais, são iniciativas desenvolvidas por membros da AEGEE. Estes lidam com os desafios atuais na sociedade Europeia, criar sensibilidade entre os jovens e propor soluções a partir de um ponto de vista do aluno. O resultado deste trabalho tem um impacto dentro e fora da AEGEE.",
         projects_img: "images/sobre/Thematic-Projects.jpg",
 
-        advocacy_title: "Advocacy and Policy",
-        advocacy_text: "AEGEE gathers the opinions of European students and represents them towards  stakeholders through campaigns, lobby actions, conferences and membership in bigger advocacy platforms. In addition, AEGEE informs students and young people about the impact which European policies have in their lives and opportunities they offer",
+        advocacy_title: "Advocacia e Política",
+        advocacy_text: "A AEGEE recolhe as opiniões dos estudantes Europeus e representa-os aos intervenientes, através de campanhas, ações de lobby, conferências e participação em plataformas de defesa maiores. Além disso, a AEGEE informa os estudantes e os jovens sobre o impacto que as políticas Europeias têm nas suas vidas e as oportunidades que elas oferecem.",
         advocacy_img: "images/sobre/Policy-and-Advocacy.jpg",
 
-        forum_title: "Forum for Discussion",
-        forum_text: "AEGEE provides a space for young Europeans to discuss and exchange different points of view with a European perspective,in order to find a common ground. This exchange of ideas happens in all our activities but a special place for them is our Working groups, conferences and General Assemblies (EBM & Agora).",
+        forum_title: "Fórum de Discussão",
+        forum_text: "A AEGEE fornece um espaço para os jovens europeus para discutir e trocar pontos de vista diferentes com uma perspectiva Europeia, a fim de encontrar um interesse comum. Esta troca de idéias acontece em todas as nossas atividades, mas um lugar especial para eles são os nossos Grupos de trabalho, conferências e Assembleias Gerais (EBM e Ágora).",
         forum_img: "images/sobre/Forum-for-Discussion.jpg"
     };
 

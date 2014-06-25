@@ -9,8 +9,8 @@ exports = module.exports = function(req, res) {
     locals.section = 'projetos';
 
     locals.info = {
-        text1: "AEGEE-Europe’s projects are a set of ideas which have been turned into reality by motivated members. These projects, including the Flagship Project, are decided and implemented by the association as a whole and can call on the resources of AEGEE-Europe for support. They deal with topics of interest for the European youth in general. These European projects are coordinated by international teams and consist of actions taken in several countries. These actions are usually varied, and creativity is crucial for developing a successful project: conferences, seminars, action days, contests, and any other way of involving young people in the topic can contribute to a project.",
-        text2: "Below you can find more information about AEGEE-Europe’s currently running and past projects.",
+        text1: "Os projetos da AEGEE-Europa são um conjunto de idéias que se transformaram em realidade por membros motivados. Estes projectos, incluindo o 'Flagship Project', são decididas e implementadas pela associação como um todo e pode chamar os recursos da AEGEE-Europe para o apoio. Estes lidam com temas de interesse para a juventude europeia em geral. Estes projectos europeus são coordenados por equipas internacionais e consistem em ações realizadas em vários países. Estas ações geralmente são variados, e a criatividade é fundamental para o desenvolvimento de um projeto de sucesso: conferências, seminários, dias de ação, concursos e qualquer outra forma de envolver os jovens no tópico pode contribuir para um projeto.",
+        text2: "Abaixo, podes encontrar mais informações sobre os projetos da AEGEE-Europa atualmente em execução.",
 
         title: "Projectos Atuais",
 

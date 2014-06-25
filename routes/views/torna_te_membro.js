@@ -9,23 +9,23 @@ exports = module.exports = function(req, res) {
     locals.section = 'torna-te-membro';
 
     locals.info = {
-        title: "How to Join",
-        first_para: "<p>You can get involved in many of the activties we organise throughtout the year regardless.</p><p>However, by becoming a member of AEGEE Madeira you can:</p>",
+        title: "Como aderir?",
+        first_para: "<p>És sempre bem-vindo/a a participar e envolver-te nas nossa atividades que organisamos ao longo do ano, independentemente seres membro ou não.</p><p>No entanto, ao tornar-te um membro da AEGEE Madeira podes:</p>",
         advantages: [
-            "Participate in all European events you want including Summer University.",
-            "Participate in exchanges we make with other venues.",
-            "Participate in local activities we organize.",
-            "Receive regular newsletter of all activities organized by AEGEE Madeira and other AEGEE antenna."
+            "Participar em todos os eventos Europeus que desejas incluindo as Universidades de Verão.",
+            "Participar em intercâmbios que fazemos com outros locais.",
+            "Participar em atividades locais que organizamos.",
+            "Receber newsletter periódico de todas as atividades organizadas pela AEGEE Madeira e pelas outras antenas da AEGEE."
         ],
-        heading_second_para: "The steps to become are member are:",
+        heading_second_para: "Os passos para se tornar membro são:",
         steps: [
-            "1. Register at the AEGEE-Europe website: <a href='http://intranet.aegee.org/login/signUp'>aegee.org</a>",
-            "2. Pay by bank transfer the annual membership fee 18€ to the AEGEE Madeira bank account, adding your name and surname as reference: <div class='row'><div class='medium-6 medium-offset-3 columns'>XXXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</div></div>",
-            "3. Send the receipt of payment to aegee.madeira@gmail.com"
+            "1. Regista-te no site da AEGEE-Europa: <a href='http://intranet.aegee.org/login/signUp'>www.aegee.org</a>",
+            "2. Realizar o pagamento por transferência bancária a quota anual de 18€ para a conta bancária AEGEE Madeira, adicionando teu nome e sobrenome como referência: <div class='row'><div class='medium-6 medium-offset-3 columns'>XXXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</br>XXXXXXXXXXXXXX</div></div>",
+            "3. Enviar o comprovativo de pagamento para <a href='mailto:aegee.madeira@gmail.com?Subject=Comprovativo%20Pagamento' target='_top'>aegee.madeira@gmail.com</a>"
         ],
-        last_para: "<p>As soon as we receive the payment and you appear as a AEGEE Madeira member in intranet, we will confirm your membership and you will start to receive all the news from AEGEE-Europe and the antenna.</p>"
-                  +"<p>Remember that the AEGEE-Europe intranet is managed by AEGEE-Europe directly. Consequently, if you want to change your antenna or have any issue during the registration process in the official website, you need to contact &quot;myAEGEE Team&quot; (myaegee@aegee.org).</p>"
-                  +"<p>We look forward to meeting you!</p>"
+        last_para: "<p>Assim que recebermos o pagamento e apareces como um membro AEGEE Madeira na intranet, iremos confirmar a tua inscrição logo que possível.</p>"
+                  +"<p>Lembra-te que a intranet AEGEE-Europa é gerida pela AEGEE-Europe diretamente. Consequentemente, se quiseres mudar a tua antena ou tiveres qualquer problema durante o processo de inscrição no site oficial, terás de contactar &quot;myAEGEE Team&quot; (myaegee@aegee.org).</p>"
+                  +"<p>Estamos ansiosos para te conhecer!</p>"
 
 
 

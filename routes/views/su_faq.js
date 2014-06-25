@@ -96,7 +96,7 @@ exports = module.exports = function(req, res) {
                 a: "You can find <a href='http://ec.europa.eu/consularprotection/showMap.action?tab=4' target='_blank'>travel advice by country here</a>. And if you are an EU citizen travelling outside the EU, you can find information about <a href='http://ec.europa.eu/consularprotection/index.action' target='_blank'>consular protection here</a>."
             }
         ],
-        contact: "If after all this you still have any questions, contact us!"
+        contact: "Se ainda te restam dúvidas, contata-nos!"
 
         //FAQ das SUs
     };

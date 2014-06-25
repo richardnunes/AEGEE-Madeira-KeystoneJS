@@ -9,8 +9,8 @@ exports = module.exports = function(req, res) {
     locals.section = 'tudo-sobre-su';
 
     locals.info = {
+        brevemente: "Brevemente.",
         title: "Tudo sobre as Summer Universities (SUs)",
-        
         about_su: [
             {
                 q: "What is a SU ?",

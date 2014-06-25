@@ -9,22 +9,22 @@ exports = module.exports = function(req, res) {
     locals.section = 'mapa-rede';
 
     locals.info = {
-        intro:  "<em>Do you see yourself as an open-minded young European?</em><br>" +
-                "<em>Are you curious to learn what distinguishes us from any other culture on the planet?</em><br> " +
-                "<em>Have you been planning on travelling around the continent and meeting new friends?</em><br>" +
-                "<em>Can you imagine yourself taking part in shaping our future together?</em><br>" +
-                "<em>All you are lacking is the experience of discovering Europe?</em>",
+        intro:  "<em>Vês-te como um jovem Europeu de mente aberta?</em><br>" +
+                "<em>Estás curioso para saber o que nos distingue de qualquer outra cultura no planeta?</em><br> " +
+                "<em>Já pensaste em viajar à volta do continente e fazer novos amigos?</em><br>" +
+                "<em>Consegues imaginar-te a dar forma ao nosso futuro juntos?</em><br>" +
+                "<em>Tudo que falta é a experiência de descobrir a Europa?</em>",
 
-        become: "If your answer to any of the questions above is ‘YES!’,&nbsp;you should definitely consider <strong>becoming a member of AEGEE</strong>!",
-        sub_title: "As an AEGEE member, you can",
+        become: "Se a tua resposta a qualquer uma das perguntas acima é ‘SIM!’,&nbsp;deves considerar definitivamente <strong>tornar-te um membro da AEGEE</strong>!",
+        sub_title: "Sendo membro AEGEE, podes",
         li_elem: [
-            "join local events and meetings,",
-            "attend international events, such as trainings, conferences, exchanges, or Summer Universities, get involved in the work of international Working Groups and projects,",
-            "become part of a community of young Europeans,",
-            "and take part in shaping the future of Europe!"
+            "participar em eventos e reuniões locais,",
+            "assistir a eventos internacionais, tais como treinos, conferências, intercâmbios, ou Universidades de Verão (Summer Universities), envolver-te em trabalho de Grupos de Trabalho a nível internacional e projetos,",
+            "integrar-te numa comunidade de jovens Europeus,",
+            "e participar na formação do futuro da Europa!"
         ],
-        join: "Joining AEGEE Madeira",
-        join_text: "If you’d like to join AEGEE Madeira, contact us to find out how you can become involved in our activities.",
+        join: "Junta-te à AEGEE Madeira",
+        join_text: "Se queres tornar-te membro da AEGEE Madeira, dá um clique no botão abaixo onde encontrás mais informações, e como podes envolver-te nas nossas atividades.",
         mapa_img: "images/mapa/dicover_aegee.jpg"
     };
 

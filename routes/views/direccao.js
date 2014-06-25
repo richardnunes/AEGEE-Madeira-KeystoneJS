@@ -10,7 +10,7 @@ exports = module.exports = function(req, res) {
 
     locals.info = {
         title: "Conheçe a nossa equipa",
-        text: "Our Board Team consists of enthusiastic and motivated young individuals aiming to create an open and tolerant society of today and tomorrow.",
+        text: "O nosso Conselho é constituído por indivíduos jovens entusiasmados e motivados com o objetivo de criar uma sociedade aberta e tolerante de hoje e de amanhã.",
         members: [
             {
                 i: 0,
@@ -32,7 +32,7 @@ exports = module.exports = function(req, res) {
                 i: 2,
                 name:"Rúben Santos",
                 cargo: [
-                    "Secretary"
+                    "Secretário"
                 ],
                 foto: "images/fotos_dir/ruben.jpg"
             },

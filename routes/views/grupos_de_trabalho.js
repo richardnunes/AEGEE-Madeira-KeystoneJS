@@ -10,7 +10,7 @@ exports = module.exports = function(req, res) {
 
     locals.info = {
         title: "Grupos de Trabalho da AEGEE",
-        text: "Working Groups (WGs) take care of specific subjects that are of importance to AEGEE, coming up with their own initiatives and supporting locals with information and content for their events. By visiting the pages below you can find more information about AEGEE-Europe’s Working Groups.",
+        text: "Os Grupos de Trabalho ou Working Groups (WGs) satisfazem assuntos específicos que são de importância para AEGEE, formando as suas próprias iniciativas e apoiando os habitantes locais com informações e conteúdos para seus eventos. Ao visitar as páginas abaixo, podes encontrar mais informações sobre os Grupos de Trabalho da AEGEE-Europa.",
 
         groups: [
             {name: "AEGEE-Academy", link: "http://www.aegee.org/wgs/aegee-academy/", img:"images/working_groups/aca.png"},

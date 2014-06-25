@@ -1,5 +1,13 @@
 extends ../layouts/default
 block content
-    .row: .medium-12.columns
-        h2 !{locals.info.title}
-        p !{locals.info.text}
+    .row.tudo-su
+        .medium-12.columns
+            h2.title !{locals.info.title}
+            h3.text-center.soon !{locals.info.brevemente}
+        hr
+        .row.more-info-box-su.text-center
+            .medium-2.columns
+                a(href="http://www.aegee.org", target="_blank")
+                    img(src="/images/tudo-su/su_logo_fb.png" alt="AEGEE Summer University")
+            .medium-10.columns
+                h4 Para mais informações podes consultar <a target="_blank" href="http://www.projects.aegee.org/suct/su2014/index.php">aqui</a> o site oficial das Universidades de Verão AEGEE.

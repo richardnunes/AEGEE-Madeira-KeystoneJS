@@ -3,6 +3,10 @@ body {
   font-weight: 200!important;
 }
 
+.aegee-color {
+  background-color: @aegee-blue!important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300!important;
 }
@@ -16,7 +20,7 @@ p {
 
 
 #content {
-  margin: 20px 0 200px;
+  margin: 20px 0 164px;
   padding-bottom: 22px;
 }
 
@@ -27,12 +31,16 @@ p {
     background-color: @aegee-purple;
     text-align: center;
   }
+  .soon {
+    margin: 55px 0 140px;
+    color: @aegee-grey;
+  }
   .post {
     background-color: #FFF;
     padding: 10px 25px 0;
     border: 3px solid #F5F5F5;
     margin-bottom: 20px;
-    
+
     .date{
       font-size: 12px;
       display: inline;
@@ -46,7 +54,7 @@ p {
         font-weight: 900;
       }
     }
-    
+
     p {
       span {
         font-family: inherit!important;
@@ -55,8 +63,8 @@ p {
         text-align: inherit!important;
       }
     }
-    
-    
+
+
     img {
       float: right;
       padding: 0;
@@ -64,7 +72,7 @@ p {
       margin: 0 10px;
     }
   }
-  
+
   .categories {
     padding: 0em 0 0.9375em 0;
     h3 {
@@ -258,7 +266,7 @@ p {
   .title {
     color: white;
     padding: 4px 10px;
-    background-color: @aegee-dark-red;
+    background-color: @aegee-dark-purple;
     text-align: center;
   }
   p {
@@ -269,6 +277,38 @@ p {
     margin: 0 auto 40px;
   }
 }
+
+.tudo-su {
+  .title {
+    color: white;
+    padding: 4px 10px;
+    background-color: @aegee-dark-green;
+    text-align: center;
+  }
+  .soon {
+    margin: 55px 0 140px;
+    color: @aegee-grey;
+  }
+  .more-info-box-su {
+    background: #fff;
+    border-radius: 3px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px 1px #E2E2E2;
+    img {
+      width: 56%;
+      max-width: 200px;
+    }
+    h4 {
+      color: @aegee-green;
+    }
+    a {
+      color: @aegee-dark-green
+    }
+  }
+}
+
+
+
 
 .faq {
   .title {
@@ -286,11 +326,11 @@ p {
       }
       a:hover {
         background: @aegee-light-orange;
-      }  
+      }
     }
     .active {
       a{background: @aegee-light-orange;}
-      
+
     }
   }
   .contact-us {
@@ -342,7 +382,7 @@ p {
     background-color: @aegee-green;
     text-align: center;
   }
-  
+
   form{
     background: #F3F3F3;
     border-radius: 3px;
@@ -355,6 +395,11 @@ p {
   }
   h3 {
     margin: 20px 0 36px;
+  }
+  .contact-text1{
+    text-align: center;
+    font-size: 1.25em;
+    padding: 25px 20px 0;
   }
 }
 
@@ -388,7 +433,7 @@ p {
 
 #footer {
   width: 100%;
-  height: 200px;
+  height: auto;
   background-color: #2C2C2C;
   float: left;
   clear: none;
@@ -396,9 +441,15 @@ p {
   bottom: 0;
   margin: 0;
   border-top: 1px solid @aegee-light-grey;
-  padding-top: 30px;
+  padding: 40px 0;
   color: @aegee-light-grey;
-  .keystone-link {
+  .link {
     color: @aegee-light-blue;
   }
+  .footer-element {
+    margin: 15px 0 0;
+    font-size: 0.8em;
+    color: @aegee-grey;
+  }
+
 }

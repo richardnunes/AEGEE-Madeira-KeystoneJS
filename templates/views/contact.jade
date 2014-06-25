@@ -1,11 +1,12 @@
 extends ../layouts/default
 block content
     .row: .medium-12.columns.contact
-        h2.title Contacta-nos
+        h2.title Contata-nos
         .row
             .medium-4.columns
-                p We are looking forward to cooperation with any individual, business or organization that share our aim. Please use the form contact us
-                p or find us on facebook
+                p.contact-text1 Estamos interessados em colaborar com qualquer indivíduo, empresa ou organização que partilham os nossos objectivos. Por favor use o formulário de contato para entrar em contato conosco.
+                p.contact-text1 ou manda mensagem através do
+                    a(href="https://www.facebook.com/messages/835961503085368", target="_blank") Facebook
             .medium-8.columns.contact
                 if enquirySubmitted
                     h3.text-center Obrigado por enviar-nos mensagem.
@@ -22,7 +23,7 @@ block content
                             label Telefone
                             input(type='text', name='phone', value=formData.phone, placeholder='(opcional)').form-control
                         .form-group(class=validationErrors.enquiryType ? 'has-error' : null)
-                            label Qual é a razão que estás a nos contactar?
+                            label Qual é a razão que estás a nos contatar?
                             select(name='enquiryType').form-control
                                 option(value='') (selecionar um)
                                 each type in enquiryTypes
@@ -31,4 +32,4 @@ block content
                             label Mensagem
                             textarea(name='message', placeholder='Deixa aqui a tua mensagem...' rows=4).form-control= formData.message
                         .form-actions
-                            button(type='submit').button Enviar
+                            button(type='submit').button.aegee-color Enviar
