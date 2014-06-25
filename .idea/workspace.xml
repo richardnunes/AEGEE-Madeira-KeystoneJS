@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75d38420-abb3-43b4-9884-be2a84dea75a" name="Default" comment="" />
+    <ignored path="aegee.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="aegee" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="custom.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/styles/site/custom.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.6438357" vertical-offset="0" max-vertical-offset="9200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="116" column="47" selection-start="5468" selection-end="5468" vertical-scroll-proportion="0.52156866" vertical-offset="1921" max-vertical-offset="3100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="cd dir_name" />
+      <command text="ls" />
+      <command text="grunt.cmd build" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/js/blur.js" />
+        <option value="$PROJECT_DIR$/templates/views/post.jade" />
+        <option value="$PROJECT_DIR$/routes/middleware.js" />
+        <option value="$PROJECT_DIR$/routes/views/contact.js" />
+        <option value="$PROJECT_DIR$/routes/views/blog.js" />
+        <option value="$PROJECT_DIR$/routes/views/post.js" />
+        <option value="$PROJECT_DIR$/node_modules/keystone/node_modules/express/lib/router/index.js" />
+        <option value="$PROJECT_DIR$/public/styles/site.less" />
+        <option value="$PROJECT_DIR$/public/styles/site/layout.less" />
+        <option value="$PROJECT_DIR$/routes/emails.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/templates/views/summer-university.jade" />
+        <option value="$PROJECT_DIR$/templates/views/declaracao-principios.jade" />
+        <option value="$PROJECT_DIR$/keystone.js" />
+        <option value="$PROJECT_DIR$/node_modules/keystone/node_modules/express/test.js" />
+        <option value="$PROJECT_DIR$/node_modules/keystone/index.js" />
+        <option value="$PROJECT_DIR$/templates/views/direccao.jade" />
+        <option value="$PROJECT_DIR$/templates/views/grupos-de-trabalho.jade" />
+        <option value="$PROJECT_DIR$/templates/views/projetos.jade" />
+        <option value="$PROJECT_DIR$/templates/views/sobre.jade" />
+        <option value="$PROJECT_DIR$/models/Enquiry.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/templates/views/torna-te-membro.jade" />
+        <option value="$PROJECT_DIR$/routes/views/direccao.js" />
+        <option value="$PROJECT_DIR$/routes/views/grupos_de_trabalho.js" />
+        <option value="$PROJECT_DIR$/routes/views/projetos.js" />
+        <option value="$PROJECT_DIR$/routes/views/sobre.js" />
+        <option value="$PROJECT_DIR$/routes/views/summer_university.js" />
+        <option value="$PROJECT_DIR$/routes/views/mapa_rede.js" />
+        <option value="$PROJECT_DIR$/routes/views/torna_te_membro.js" />
+        <option value="$PROJECT_DIR$/routes/views/tudo_sobre_su.js" />
+        <option value="$PROJECT_DIR$/routes/views/su_faq.js" />
+        <option value="$PROJECT_DIR$/templates/views/contact.jade" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/views/noticias.js" />
+        <option value="$PROJECT_DIR$/templates/views/noticias.jade" />
+        <option value="$PROJECT_DIR$/templates/views/tudo-sobre-su.jade" />
+        <option value="$PROJECT_DIR$/routes/views/declaracao_principios.js" />
+        <option value="$PROJECT_DIR$/templates/layouts/default.jade" />
+        <option value="$PROJECT_DIR$/public/styles/site/custom.less" />
+        <option value="$PROJECT_DIR$/templates/views/su-faq.jade" />
+        <option value="$PROJECT_DIR$/templates/views/mapa-rede.jade" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>TaskInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/grunt-contrib-jade/tasks/jade.js" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="§" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/tudo-su" />
+      <recent name="$PROJECT_DIR$/node_modules/keystone/node_modules" />
+      <recent name="$PROJECT_DIR$/public/js/lib" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/styles" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75d38420-abb3-43b4-9884-be2a84dea75a" name="Default" comment="" />
+      <created>1399637797750</created>
+      <updated>1399637797750</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add project files">
+      <created>1399638336716</created>
+      <updated>1399638336716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add project files">
+      <created>1399639536010</created>
+      <updated>1399639536010</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add project files">
+      <created>1399642992154</created>
+      <updated>1399642992154</updated>
+    </task>
+    <task id="LOCAL-00004" summary="touching up for first deploy&#10;">
+      <created>1403714460271</created>
+      <updated>1403714460271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21388888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972324" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="add project files" />
+    <MESSAGE value="touching up for first deploy&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="touching up for first deploy&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="20" selection-start="1664" selection-end="1667" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="2540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logo-email.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.65088755" vertical-offset="330" max-vertical-offset="860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/emails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="815" selection-end="815" vertical-scroll-proportion="0.7226415" vertical-offset="177" max-vertical-offset="980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="82" selection-start="717" selection-end="717" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updates/0.0.1-admins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="238" selection-end="238" vertical-scroll-proportion="0.1992528" vertical-offset="0" max-vertical-offset="1060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/keystone/node_modules/express/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3495935" vertical-offset="68" max-vertical-offset="3700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/keystone/node_modules/express/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/keystone/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="618" column="39" selection-start="15624" selection-end="15624" vertical-scroll-proportion="-475.3846" vertical-offset="0" max-vertical-offset="35800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keystone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="2353" selection-end="2353" vertical-scroll-proportion="2.1917808" vertical-offset="0" max-vertical-offset="2180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Enquiry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="708" selection-end="708" vertical-scroll-proportion="0.60491496" vertical-offset="260" max-vertical-offset="1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3875969" vertical-offset="0" max-vertical-offset="820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-watch/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="221" selection-start="498" selection-end="533" vertical-scroll-proportion="-1.751634" vertical-offset="1520" max-vertical-offset="9840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.37733498" vertical-offset="1317" max-vertical-offset="2700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/grupos-de-trabalho.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="318" selection-end="330" vertical-scroll-proportion="0.23136246" vertical-offset="0" max-vertical-offset="778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/declaracao-principios.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="416" selection-end="418" vertical-scroll-proportion="0.2360515" vertical-offset="0" max-vertical-offset="932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="432" selection-end="433" vertical-scroll-proportion="0.31034482" vertical-offset="123" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="380" selection-end="380" vertical-scroll-proportion="0.32327586" vertical-offset="20" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/grupos_de_trabalho.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="351" selection-start="639" selection-end="639" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/direccao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="171" selection-start="444" selection-end="444" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/projetos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="113" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/summer_university.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1053" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/torna_te_membro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.5720339" vertical-offset="0" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/sobre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="298" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/torna-te-membro.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="586" selection-end="586" vertical-scroll-proportion="0.3004292" vertical-offset="0" max-vertical-offset="932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/sobre.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="72" selection-start="2083" selection-end="2465" vertical-scroll-proportion="0.8712446" vertical-offset="348" max-vertical-offset="1280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/tudo-su/su_logo_fb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/tudo_sobre_su.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="245" selection-end="255" vertical-scroll-proportion="0.23305085" vertical-offset="0" max-vertical-offset="2300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="454" selection-end="465" vertical-scroll-proportion="-15.172414" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="27" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="23" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="443" max-vertical-offset="1400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/tudo-sobre-su.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="82" selection-start="537" selection-end="537" vertical-scroll-proportion="0.32345015" vertical-offset="0" max-vertical-offset="742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/declaracao_principios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="19" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.59973925" vertical-offset="0" max-vertical-offset="767">
+          <folding>
+            <marker date="1403711744000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1403711744000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1403711744000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1403711744000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1403711744000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/noticias.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="230" selection-end="230" vertical-scroll-proportion="0.18300654" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/noticias_backup.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="3641" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/noticias.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="231" selection-end="231" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/contact.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="60" selection-start="429" selection-end="429" vertical-scroll-proportion="0.18300654" vertical-offset="0" max-vertical-offset="820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="509" selection-end="509" vertical-scroll-proportion="0.4234122" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/mapa_rede.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="217" selection-end="232" vertical-scroll-proportion="0.25316456" vertical-offset="0" max-vertical-offset="800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/su_faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="58" selection-start="10880" selection-end="10880" vertical-scroll-proportion="0.8405063" vertical-offset="1296" max-vertical-offset="2240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/mapa-rede.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="61" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.7058824" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/su-faq.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="866" selection-end="866" vertical-scroll-proportion="0.48843187" vertical-offset="0" max-vertical-offset="778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.6438357" vertical-offset="0" max-vertical-offset="9200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="47" selection-start="5468" selection-end="5468" vertical-scroll-proportion="0.52156866" vertical-offset="1921" max-vertical-offset="3100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
